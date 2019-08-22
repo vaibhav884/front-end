@@ -1,0 +1,120 @@
+*{
+}
+.logo{
+    float: left;
+}
+.about{
+float: right;
+}
+img{
+    border: 3px solid rgb(250, 82, 82);
+    margin: 10px;
+    margin-bottom: 0px;
+}
+.header{
+    text-align: center;
+    text-shadow: 3px 3px 3px red;
+    background-image: linear-gradient(red, yellow);
+}
+.transition{ 
+    transition: all 4s ease-in-out;
+}
+.transition:hover{
+    transform: translate(50%);
+    
+}
+
+/* .animation{ 
+    animation-name: move;
+    animation-duration: 5s;
+    animation-iteration-count: 5;
+}
+
+@keyframes move{
+    0%{
+        transform: translateX(110px);
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    75%{
+        transform: translateX(75px);
+    }
+
+
+}
+*/
+.name{
+    font-size: 40px;
+    margin: 10;
+    margin-top: 5px;
+    margin-left: 10px;
+   margin-bottom: 0px;
+    padding-bottom: 0px;
+    font-family:'Times New Roman', Times, serif;
+
+}
+.description{
+    margin: 10px;
+    margin-top: 0px;
+    padding-top: 0px;
+    text-transform: capitalize;
+    opacity: 0.7;
+}
+.border{
+    
+    border: 3px solid black;
+width: 35%;
+height: auto;
+position: relative;
+float: right;
+}
+
+ul li{
+    font-size: 2rem;
+    text-transform: capitalize;
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+}
+ul li a{
+    color: black;
+}
+.link{
+    display: inline-block;
+
+}
+.footer{
+    position: relative;
+    bottom: 0px;
+    border: 2px solid black;
+    padding: 0px;
+    margin-top: 0px;
+    background: black;
+    color: white;
+
+}
+.raju{
+    clear: both;
+}
+.contact{
+    margin-top: 0;
+    margin-bottom: 0;
+    text-align: center;
+    text-decoration: underline;
+
+}
+.nigga
+{
+    border: 0;
+}
+.marginless{
+    border: 0;
+    padding: 20px 20px;
+}
+.backg{
+    background-image: url('books.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
